@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="nav-heading">EPL GUESSING GAME</h1>
+        <nav>
+            <ul class="nav-lists">
+                <li class="nav-list">STAGE: <span id="stage-change"></span></li>
+                <li class="nav-list score">SCORE: <span id="score-change">0</span></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h3 id="score-update" class="hide">Each correc</h3>
+        <h3 id="questions-note">You get 10 points for Each correct answer, there are 5 available questions</h3>
+        <div id="questions-holder" class="hide">
+            <div id="questions">Arsenal Football Clubs highest Scorer?</div>
+            <div class="answer-container">
+                <button class="btn-select" data-number="1" id="answer-1">Choice 1</button>
+                <button class="btn-select" data-number="2" id="answer-2">Choice 2</button>
+                <button class="btn-select" data-number="3" id="answer-3">Choice 3</button>
+                <button class="btn-select" data-number="4" id="answer-4">Choice 4</button>
+            </div>
+        </div>
+        <div class="control-container">
+            <button id="begin-btn">Begin</button>
+            <button id="next-btn" class="hide">Next</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
